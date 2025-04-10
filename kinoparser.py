@@ -3,7 +3,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 import requests
 from bs4 import BeautifulSoup
 
-bot = telebot.TeleBot("8073098746:AAHCLTZACe4xIBUocKz_gmmltEZ-LQydK2g")  # Замените на ваш токен
+bot = telebot.TeleBot("8073098746:AAHCLTZACe4xIBUocKz_gmmltEZ-LQydK2g")  
 
 # Функция парсинга фильмов
 import requests
@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 def parse_movies():
     try:
-        url = 'https://www.kinopoisk.ru/lists/movies/'  # Замените на актуальный URL
+        url = 'https://www.kinopoisk.ru/lists/movies/' 
         headers = {
             'User -Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
             'Accept-Language': 'en-US,en;q=0.9',
